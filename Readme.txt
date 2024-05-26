@@ -1,0 +1,1 @@
+A simple single page restaurant site. Made with using webpack.
