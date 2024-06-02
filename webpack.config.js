@@ -1,8 +1,11 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { watch } = require('fs');
 
 module.exports = {
+   mode: 'development',
   entry: './src/index.js',
+  watch: true,
   plugins: [
     new HtmlWebpackPlugin({
         template: './src/index.html',
